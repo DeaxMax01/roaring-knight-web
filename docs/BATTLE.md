@@ -31,12 +31,12 @@ All `global.*` battle variables live in `g.glob` (see `Glob` in `src/rt.rs`). An
 
 ## Fixed setup (encounter 115, chapter 3 defaults — no save file is read)
 
-* Party: Kris (char 1) HP 160, AT 14, DF 2, MAG 0, weapon 16 MechaSaber (AT+4), armors 1 Amber Card (DF+1) & 10
-  GlowWrist (DF+2). Susie (char 2) HP 190, AT 18, DF 2, MAG 2, weapon 17 AutoAxe (AT+4), armors 1 & 10.
-  Ralsei (char 3) HP 140, AT 12, DF 2, MAG 11, weapon 18 FiberScarf (AT+3, MAG+2), armors 1 & 10.
+* Party: Kris (char 1) HP 240, AT 19, DF 9, MAG 0, weapon 16 MechaSaber (AT+4), armors 1 Amber Card (DF+1) & 10
+  GlowWrist (DF+2). Susie (char 2) HP 380, AT 31, DF 6, MAG 11, weapon 17 AutoAxe (AT+4), armors 1 & 10.
+  Ralsei (char 3) HP 190, AT 12, DF 1, MAG 24, weapon 18 FiberScarf (AT+3, MAG+2), armors 1 & 10.
   So battleat = [18, 22, 15], battledf = [5, 5, 5], battlemag = [0, 2, 13].
   Spells (`global.spell`): Kris [7], Susie [4, 11], Ralsei [3, 2] (see scr_gamestart; resolve names via scr_spellinfo).
-* Inventory (`global.item`, ids from scr_iteminfo): 2 ReviveMint, 8 Darkburger, 16 CD Bagel, 11 ClubsSandwich,
+* Inventory (`global.item`, ids from scr_iteminfo): 2 ReviveMint, 2 ReviveMint, 2 ReviveMint, 2 ReviveMint,
   34 TVDinner, 38 ExecBuffet, 27 TensionBit, 39 DeluxeDinner, 24 ButJuice, 23 LightCandy, 37 TVSlop, 22 DD-Burger.
 * Encounter 115: heromakex/y = (126,104), (80,142), (58,190); knight at monstermakex/y (425, 78); battlemsg
   "* The Roaring Knight appeared."; music "mus_knight" (assets/mus/knight.ogg, looping, volume 0.7 per controller
