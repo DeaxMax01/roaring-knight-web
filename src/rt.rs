@@ -405,7 +405,7 @@ impl Default for Glob {
             mnfight: 0.0,
             myfight: 0.0,
             tension: 0.0,
-            maxtension: 250.0,
+            maxtension: 500.0,
             tensionselect: 0.0,
             temptension: [0.0; 3],
             hp: [0.0; 5],
